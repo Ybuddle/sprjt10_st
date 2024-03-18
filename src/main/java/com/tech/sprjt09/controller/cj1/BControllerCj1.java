@@ -11,11 +11,11 @@ import com.tech.sprjt09.service.cj1.BServiceInter;
 public class BControllerCj1 {
 	
 	BServiceInter bServiceInter;
-	
+//	master of master
 	@RequestMapping("/list")
 	public String list(Model model) {
 		System.out.println("list()");
-////		µ¥ÀÌÅÍ °¡Á®¿À±â
+////		ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //		bServiceInter=new BListService();
 //		bServiceInter.execute(model);
 		
