@@ -18,12 +18,12 @@ public class BControllerCj3 {
 	@RequestMapping("/content_view")
 	public String content_view(HttpServletRequest request, Model model) {
 		System.out.println("content_view()");
-		//(�۹�ȣ)�ش�� ��ȸ
-////		toss
+//		(�۹�ȣ)�ش�� ��ȸ
+//		toss
 //		msw comment
-//		model.addAttribute("request", request);
-//		bServiceInter=new BContentViewService();
-//		bServiceInter.execute(model);
+		model.addAttribute("request", request);
+		bServiceInter=new BContentViewService();
+		bServiceInter.execute(model);
 
 		return "content_view";
 	}
