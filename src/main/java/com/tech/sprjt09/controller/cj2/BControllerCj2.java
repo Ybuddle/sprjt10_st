@@ -34,5 +34,10 @@ public class BControllerCj2 {
 		return "redirect:list";
 	}
 //tom2
+	@RequestMapping("/jm")
+	public String jm(HttpServletRequest request, Model model) {
+		System.out.println("jm()");
 
+		return "redirect:list";
+	}
 }
