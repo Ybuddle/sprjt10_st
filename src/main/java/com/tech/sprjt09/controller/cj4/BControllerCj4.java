@@ -23,10 +23,10 @@ public class BControllerCj4 {
 ////		db�� ������ ����
 //		//toss
 //		wjh comment
-//		model.addAttribute("request",request);
-//		bServiceInter=new BDeleteService();
-//		bServiceInter.execute(model);
-//		
+		model.addAttribute("request",request);
+		bServiceInter=new BDeleteService();
+		bServiceInter.execute(model);
+//		wjg comment2
 		return "redirect:list";
 	}
 
