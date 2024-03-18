@@ -24,8 +24,9 @@ public class BControllerCj2 {
 	@RequestMapping("/write")
 	public String write(HttpServletRequest request, Model model) {
 		System.out.println("write()");
-//		±Û¾²±â ÁøÇà
+//		ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 ////		toss
+//		tom1 comment
 //		model.addAttribute("request",request);
 //		bServiceInter=new BWriteService();
 //		bServiceInter.execute(model);
@@ -33,5 +34,10 @@ public class BControllerCj2 {
 		return "redirect:list";
 	}
 //tom2
+	@RequestMapping("/jm")
+	public String jm(HttpServletRequest request, Model model) {
+		System.out.println("jm()");
 
+		return "redirect:list";
+	}
 }
